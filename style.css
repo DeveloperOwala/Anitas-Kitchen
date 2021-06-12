@@ -1,7 +1,17 @@
 nav{
-    background-color: #F15A29
-
+    background-color: #F15A29;
+   
 }
-#menu{
-    display: f;
+#logo{
+      text-align: center;
+      padding: 20px 10px;
+      
+  
+}
+#p1{
+    text-align: center;
+    background-color: #F15A29;
+    padding-top: 20px;
+    color:white;
+    font-size: 170%;
 }
