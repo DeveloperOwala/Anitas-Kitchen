@@ -10,8 +10,7 @@ nav{
 }
 #logo{
       text-align: center;
-      padding: 20px 10px;
-      
+      padding: 20px 10px;      
   
 }
 #p1{
@@ -37,7 +36,8 @@ nav{
 #menu{
     display: flex;
     justify-content: space-between;
-    margin-right: 20%;
+    opacity: 1.2;
+   
 }
 #menu div{
     /* padding: 10px 20px 10px 0px; */
@@ -50,13 +50,15 @@ nav{
 }
 #breakfast{
     background-image: url(./images/breakfast.jpg);
+   color: white;
    
 }
 #lunch{
     background-image: url(./images/lunch.jpg);
-   
+    color: white;
 }
 
 #dinner{
     background-image: url(./images/dinner.jpg);
+    color: white;
 }
