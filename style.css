@@ -17,7 +17,7 @@ nav{
     text-align: center;
     background-color: #F15A29;
     opacity: 0.85;
-    padding-top: 20px;
+    padding: 2px 0 70px 0;
     color:white;
     font-size: 170%;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -42,5 +42,13 @@ nav{
 
 #dinner{
     background-image: url(./images/dinner.jpg);
-  
+}
+#happyHour{
+    background-color: #F15A29;
+    opacity: 0.85;
+
+}
+#partyTime{
+    background-color: #F15A29;
+    opacity: 0.85;
 }
