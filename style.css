@@ -1,5 +1,10 @@
+body{
+    margin-left: 200px;
+    margin-right: 200px;
+}
 nav{
     background-color: #F15A29;
+    opacity: 0.85;
    
 }
 #logo{
@@ -11,12 +16,31 @@ nav{
 #p1{
     text-align: center;
     background-color: #F15A29;
+    opacity: 0.85;
     padding-top: 20px;
     color:white;
     font-size: 170%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 #menu{
     display: flex;
     justify-content: space-between;
-    margin-right: 50%;
+    margin-right: 20%;
+}
+#menu div{
+    padding: 10px 20px 10px 20px;
+     opacity: 0.9;
+}
+#breakfast{
+    background-image: url(./images/breakfast.jpg);
+   
+}
+#lunch{
+    background-image: url(./images/lunch.jpg);
+   
+}
+
+#dinner{
+    background-image: url(./images/dinner.jpg);
+  
 }
