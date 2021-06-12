@@ -15,3 +15,8 @@ nav{
     color:white;
     font-size: 170%;
 }
+#menu{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50%;
+}
