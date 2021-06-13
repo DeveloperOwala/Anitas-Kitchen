@@ -32,7 +32,10 @@ nav{
 #partyTime{
     background-color: #F15A29;
     opacity: 0.85;
+    
 }
+
+
 #menu{
     display: flex;
     justify-content: space-between;
@@ -48,6 +51,9 @@ nav{
      width: 300px;
      height: 150px;
 }
+#product{
+    margin: 20px 0 10px 0;
+}
 #breakfast{
     background-image: url(./images/breakfast.jpg);
    color: white;
@@ -62,6 +68,6 @@ nav{
     background-image: url(./images/dinner.jpg);
     color: white;
 }
-foodBg{
+#foodBg{
     background-image:url(./images/foodsBg.jpg);
 }
