@@ -6,7 +6,6 @@ body{
 nav{
     background-color: #F15A29;
     opacity: 0.85;
-   
 }
 #logo{
       text-align: center;
@@ -21,6 +20,7 @@ nav{
     color:white;
     font-size: 170%;
     font-family: Georgia, 'Times New Roman', Times, serif;
+ 
 }
 #happyHour{
     background-color:whitesmoke;
@@ -38,8 +38,10 @@ nav{
 
 #menu{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     opacity: 1.2;
+    margin-bottom: 100px;
+    background-color: black;
    
 }
 #menu div{
@@ -50,18 +52,21 @@ nav{
      margin: 0px 0px 0px 0px;
      width: 300px;
      height: 150px;
+     
 }
-#product{
-    margin: 20px 0 10px 0;
-}
+
 #breakfast{
     background-image: url(./images/breakfast.jpg);
    color: white;
    
 }
+#drink{
+    /* border: 10px black; */
+}
 #lunch{
     background-image: url(./images/lunch.jpg);
     color: white;
+    
 }
 
 #dinner{
@@ -70,4 +75,43 @@ nav{
 }
 #foodBg{
     background-image:url(./images/foodsBg.jpg);
+    height: 620px;
+    opacity: o.3;
 }
+  #feedback{
+      box-shadow: cornsilk;
+      display: flex;
+      margin: 10px 10px 10px 10px;
+      /* border : 3px solid burlywood; */
+      /* position: relative;
+      left: 120px; */
+  }
+  #subscribe{
+      background-image: url(./images/subscribe.jpg);
+      height: 250px;
+      opacity: 2.5;
+      text-align: center;
+      
+  }
+  #lastImage{
+      background-color: #F15A29;
+      height: 320px;
+      margin:0 0 0 0;
+      padding: 20px 20px 20px 20px;
+      text-align: center;
+      
+  }
+  .subscribe{
+    background-color: #F15A29;
+    color: white;
+    height: 40px;
+    width: 200px;
+  }
+ .email{
+     opacity: 0.5;
+     height: 40px;
+    width: 350px;
+    color:white;
+    text-align: center;
+    margin: 50px 50px 20px 100px;
+ }
