@@ -38,10 +38,11 @@ nav{
 
 #menu{
     display: flex;
-    /* justify-content: space-between; */
     opacity: 1.2;
     margin-bottom: 100px;
     background-color: black;
+   
+   
    
 }
 #menu div{
@@ -54,7 +55,11 @@ nav{
      height: 150px;
      
 }
+#products{
+    /* padding: 20px 100px 15px 250px;    
+    margin: 10px 200px 10px 200px; */
 
+}
 #breakfast{
     background-image: url(./images/breakfast.jpg);
    color: white;
@@ -73,32 +78,43 @@ nav{
     background-image: url(./images/dinner.jpg);
     color: white;
 }
+#white{
+    background-color: white;
+    padding-left: 100px; 
+    padding-bottom: 20px;
+}
 #foodBg{
     background-image:url(./images/foodsBg.jpg);
-    height: 620px;
+    height: 400px;
     opacity: o.3;
+    padding: 140px 100px 15px 250px;    
+    background-color: white;
 }
   #feedback{
       box-shadow: cornsilk;
       display: flex;
-      margin: 10px 10px 10px 10px;
-      /* border : 3px solid burlywood; */
-      /* position: relative;
-      left: 120px; */
+      margin: 10px 200px 10px 200px;
+      border: 5px solid silver;
+      padding: 20px 100px 15px 250px;
+      
   }
   #subscribe{
       background-image: url(./images/subscribe.jpg);
       height: 250px;
       opacity: 2.5;
       text-align: center;
+     
       
   }
   #lastImage{
       background-color: #F15A29;
       height: 320px;
       margin:0 0 0 0;
-      padding: 20px 20px 20px 20px;
+      padding: 40px 20px 20px 20px;
       text-align: center;
+      color: white;
+      font-size: 20px;
+      
       
   }
   .subscribe{
@@ -113,5 +129,5 @@ nav{
     width: 350px;
     color:white;
     text-align: center;
-    margin: 50px 50px 20px 100px;
+    margin: 0 30px 20px 100px;
  }
