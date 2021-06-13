@@ -62,3 +62,6 @@ nav{
     background-image: url(./images/dinner.jpg);
     color: white;
 }
+foodBg{
+    background-image:url(./images/foodsBg.jpg);
+}
