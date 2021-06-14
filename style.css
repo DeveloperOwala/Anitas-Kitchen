@@ -38,7 +38,7 @@ nav{
 
 #menu{
     display: flex;
-    opacity: 1.1;
+    opacity: 1.2;
     margin-bottom: 100px;
     background-color: black;
 
@@ -54,19 +54,27 @@ nav{
      height: 150px;
      
 }
-#products{
-    /* padding: 20px 100px 15px 250px;    
-    margin: 10px 200px 10px 200px; */
-
+#product{
+    display: flex;
+    
+}
+#product div{
+    padding: 10px 20px 10px 20px;
+    opacity: 0.9;
+    
+}
+#product>div{
+    background-color: burlywood;
+    opacity: 0.8;
+    margin: 0 10px 0 10px;
+    
 }
 #breakfast{
     background-image: url(./images/breakfast.jpg);
    color: white;
    
 }
-#drink{
-    /* border: 10px black; */
-}
+
 #lunch{
     background-image: url(./images/lunch.jpg);
     color: white;
